@@ -1,0 +1,59 @@
+
+SOAP:
+
+	SOAP is a protocol which was designed before REST and came into the picture.
+	The main idea behind designing SOAP was to ensure that programs built on different 
+	 platforms and programming languages could exchange data in an easy manner.
+	SOAP stands for Simple Object Access Protocol.
+	
+REST:
+	REST was designed specifically for working with components such as media components, files, 
+	 or even objects on a particular hardware device.
+	 Any web service that is defined on the principles of REST can be called a RestFul web service. 
+	 REST stands for Representational State Transfer.
+
+SOAP VS. REST
+	SOAP stands for Simple Object Access Protocol whereas REST stands for Representational State Transfer.
+	SOAP is a protocol whereas REST is an architectural pattern.
+	SOAP uses service interfaces to expose its functionality to client applications while REST uses Uniform 
+	 Service locators to access to the components on the hardware device.
+	SOAP needs more bandwidth for its usage whereas REST doesn’t need much bandwidth.
+	Comparing SOAP vs REST API, SOAP only works with XML formats whereas REST work with plain text, XML, HTML and JSON.
+	SOAP cannot make use of REST whereas REST can make use of SOAP.
+	
+	
+	
+HTTP request methods:
+HTTP defines a set of request methods to indicate the desired action to be performed for a given resource.
+ Although they can also be nouns, these request methods are sometimes referred to as HTTP verbs.
+  Each of them implements a different semantic, but some common features are shared by a group of them: 
+   e.g. a request method can be safe, idempotent, or cacheable.
+   
+   
+GET
+
+    The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+HEAD
+
+    The HEAD method asks for a response identical to a GET request, but without the response body.
+POST
+
+    The POST method submits an entity to the specified resource, often causing a change in state or side effects on the server.
+PUT
+
+    The PUT method replaces all current representations of the target resource with the request payload.
+DELETE
+
+    The DELETE method deletes the specified resource.
+CONNECT
+
+    The CONNECT method establishes a tunnel to the server identified by the target resource.
+OPTIONS
+
+    The OPTIONS method describes the communication options for the target resource.
+TRACE
+
+    The TRACE method performs a message loop-back test along the path to the target resource.
+PATCH
+
+    The PATCH method applies partial modifications to a resource.
